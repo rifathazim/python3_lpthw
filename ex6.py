@@ -1,22 +1,22 @@
-types_of_people = 10
-x = f"There are {types_of_people} types of people."
+types_of_people = 10 #initialization
+x = f"There are {types_of_people} types of people." #string formatting
 
-binary = "binary"
-do_not = "don't"
-y = f"Those who know {binary} and those who {do_not}."
+binary = "binary" #initialization
+do_not = "don't" #initialization
+y = f"Those who know {binary} and those who {do_not}." #string formatting
 
-print(x)
-print(y)
+print(x) #printing
+print(y) #printing
 
-print(f"I said: {x}")
-print(f"I also said: '{y}'")
+print(f"I said: {x}") #printing string using formatting
+print(f"I also said: '{y}'")#printing string using formatting
 
-hilarious = False
-joke_evaluation = "Isn't that joke so funny?! {}"
+hilarious = False #initialization(boolean)
+joke_evaluation = "Isn't that joke so funny?! {}" #initialization, here a scope for a string
 
-print(joke_evaluation.format(hilarious))
+print(joke_evaluation.format(hilarious)) #another string formatting method
 
-w = "This is the left side of..."
-e ="a string wuth a right side."
+w = "This is the left side of..." #string initialization
+e ="a string with a right side." #string initialization
 
-print(w + e)
+print(w + e) #string cascading
